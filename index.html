@@ -4,7 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Jupiter Technology</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
-<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript" src="scripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.serialScroll-1.2.2-min.js"></script>
+<script type="text/javascript" src="scripts/homepage.js"></script>
 <script type="text/javascript">
 <!--
 function MM_swapImgRestore() { //v3.0
@@ -55,7 +59,7 @@ function MM_swapImage() { //v3.0
           <div class="textbox">
             <div class="contenttitle">Research & Development</div>
             <br />
-            <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+            <span>He got Master of Computing degree at National University of Singapore and become a Passionately Remarkable Ruby on Rails Web Developer. Owner of monkeycodemonkey.blogspot.com</span></div>
           <div class="textbox">
             <div class="contenttitle">Space Walk</div>
             <br />
@@ -79,23 +83,42 @@ function MM_swapImage() { //v3.0
         </div>
         <div class="sapo">
           <div class="sapotitle"><span>Who We Are</span> </div>
-          <div class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
-            <div class="profiletext">
-              <div class="profiletitle">Alex Dung</div>
-              <br />
-              <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
-            <div class="profilethumb">
-              <ul>
-                <li><a href="#"><img src="img/leftarrow.png" width="36" height="30" border="0" /></a></li>
-                <li><a href="#alex"><img src="img/thumb.png" alt="Alex" name="Alex" width="36" height="30" border="1" id="Alex" /></a></li>
-                <li><a href="#alex" ><img src="img/thumb.png" alt="Alex" name="Alex1" width="36" height="30" border="1" id="Alex1" /></a></li>
-                <li><a href="#alex"><img src="img/thumb.png" alt="Alex" name="Alex2" width="36" height="30" border="1" id="Alex2" /></a></li>
-                <li><a href="#alex"><img src="img/thumb.png" alt="Alex" name="Alex3" width="36" height="30" border="1" id="Alex3" /></a></li>
-                <li><a href="#alex"><img src="img/thumb.png" alt="Alex" name="Alex4" width="36" height="30" border="1" id="Alex4" /></a></li>
-                <li><a href="#"><img src="img/rightarrow.png" width="36" height="30" border="0" /></a></li>
-              </ul>
-              <div class="seeall"> <a href="#">See all of the guys</a></div>
+          <div id=profilescroll class=profilescroll>
+            <div class="profilecnt">
+              <div id="guy1" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
+                <div class="profiletext">
+                  <div class="profiletitle">Alex Dung</div>
+                  <br />
+                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+              </div>
+              <div id="guy2" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
+                <div class="profiletext">
+                  <div class="profiletitle">Alex Dung</div>
+                  <br />
+                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+              </div>
+              <div id="guy3" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
+                <div class="profiletext">
+                  <div class="profiletitle">Alex Dung</div>
+                  <br />
+                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+              </div>
+              <div id="guy4" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
+                <div class="profiletext">
+                  <div class="profiletitle">Alex Dung</div>
+                  <br />
+                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+              </div>
+              <div id="guy5" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
+                <div class="profiletext">
+                  <div class="profiletitle">Alex Dung</div>
+                  <br />
+                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+              </div>
             </div>
+          </div>
+          <div class="profilethumb">
+            <div class="seeall"> <a href="#">See all of the guys</a></div>
           </div>
         </div>
         <div class="sapo" style="margin-bottom:0px;">
@@ -108,39 +131,25 @@ function MM_swapImage() { //v3.0
         </div>
       </div>
       <div class="rightcontent" align="center">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="500" id="FlashID" title="featured">
-          <param name="movie" value="img/featured.swf" />
-          <param name="quality" value="high" />
-          <param name="wmode" value="transparent" />
-          <param name="swfversion" value="6.0.65.0" />
-          <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
-          <param name="expressinstall" value="Scripts/expressInstall.swf" />
-          <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
-          <!--[if !IE]>-->
-          <object type="application/x-shockwave-flash" data="img/featured.swf" width="300" height="500">
-            <!--<![endif]-->
-            <param name="quality" value="high" />
-            <param name="wmode" value="transparent" />
-            <param name="swfversion" value="6.0.65.0" />
-            <param name="expressinstall" value="Scripts/expressInstall.swf" />
-            <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
-            <div>
-              <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
-              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
-            </div>
-            <!--[if !IE]>-->
-          </object>
-          <!--<![endif]-->
-        </object>
-      </div>
+        <div class="featuretitle">Featured Projects</div>
+        <img src="img/featuredproject.png" width="300" height="231" />
+        <div class="featuredtext"> <span style="color:#00aeef; font-size:18px;">iLoveWeddings</span><br />
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></div>
+        <div class="projectlist" align="left">
+          <ul>
+            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
+            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
+            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
+            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
+            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
+          </ul>
+        </div>
+        <span class="seeall2"><a href="#" style="color:#F0F0F0;">See all of our Projects</a></span> </div>
     </div>
   </div>
 </div>
-<div class="sitefooter" align="center"><div class="copyright" align="left"><span style="margin-top:25px; margin-left:100px;">copyright &copy; 2009 by</span><span><img src="img/copylogo.png" width="143" height="41" /></span><span style="margin-top:25px;">All rights reserved</span></div></div>
-<script type="text/javascript">
-<!--
-swfobject.registerObject("FlashID");
-//-->
-</script>
+<div class="sitefooter" align="center">
+  <div class="copyright" align="left"><span style="margin-top:25px; margin-left:100px;">copyright &copy; 2009 by</span><span><img src="img/copylogo.png" width="143" height="41" /></span><span style="margin-top:25px;">All rights reserved</span></div>
+</div>
 </body>
 </html>

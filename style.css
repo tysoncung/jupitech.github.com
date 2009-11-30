@@ -70,12 +70,13 @@ a:hover {
 	background:url(img/leftcontentbg.png);
 	float: left;
 	width: 638px;
+	overflow:hidden;
 }
 .rightcontent {
 	float:left;
 	width: 300px;
+	background-image: url(img/featurebg.png);
 	padding-bottom:10px;
-	background-color: #00374C;
 }
 .intro {
 	width: 100%;
@@ -114,12 +115,26 @@ a:hover {
 	width: 250px;
 	margin-top: 15px;
 	margin-left: 40px;
+	overflow:hidden;
 }
-.profile {
-
+.profilescroll {
 	margin-right: 40px;
 	margin-left: 40px;
 	margin-top:20px;
+	margin-bottom:10px;
+	height: 110px;
+	width:558px;
+	overflow:hidden;
+	
+}
+.profilecnt {
+	width: 2790px;
+}
+.profile {
+	width: 558px;
+	height: 110px;
+	float: left; 
+	position: relative;
 }
 .profile img {
 	float:left;
