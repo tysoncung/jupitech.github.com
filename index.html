@@ -2,154 +2,162 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Jupiter Technology</title>
+<title>Untitled Document</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="scripts/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="scripts/jquery.serialScroll-1.2.2-min.js"></script>
-<script type="text/javascript" src="scripts/homepage.js"></script>
-<script type="text/javascript">
-<!--
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
+<script type="text/javascript" src="scripts/loopedslider.js"></script>
 </head>
-<body onload="MM_preloadImages('img/home_over.png','img/people_over.png','img/projects_over.png','img/thumb.png')">
-<div class="topnav" align="center">
-  <div class="topnavarea">
-    <div class="menubtn"> <img src="img/headersep.png" width="1" height="55" /><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','img/home_over.png',1)"><img src="img/home_up.png" alt="Home" name="Home" width="95" height="55" border="0" id="Home" /></a><img src="img/headersep.png" width="1" height="55" /><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('People','','img/people_over.png',1)"><img src="img/people_up.png" alt="People" name="People" width="104" height="55" border="0" id="People" /></a><img src="img/headersep.png" width="1" height="55" /><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Projects','','img/projects_over.png',1)"><img src="img/projects_up.png" alt="Projects" name="Projects" width="125" height="55" border="0" id="Projects" /></a><img src="img/headersep.png" width="1" height="55" /></div>
-  </div>
-</div>
-<div class="banner" align="center">
-  <div class="bannerarea"><img src="img/logo.png" width="263" height="96" /></div>
-</div>
-<div class="content" align="center">
-  <div class="bgdecor">
-    <div class="contentarea" align="left">
-      <div class="leftcontent">
-        <div class="intro"><img src="img/contentlogo.png" width="503" height="46" />
-          <div class="introtext">Jupitech: A Boutique Ruby on Rails & Web Design Consultancy
-            Building a successful web business is blah blah
-            
-            Jupitech is an expert web design and development group. We practice Agile and leverage technology such as Ruby on Rails to help your company deliver quality software quickly.</div>
-        </div>
-        <div class="sapo">
-          <div class="sapotitle"><span>Web Development Services</span> </div>
-          <div class="textbox">
-            <div class="contenttitle">Research & Development</div>
-            <br />
-            <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
-          <div class="textbox">
-            <div class="contenttitle">Space Walk</div>
-            <br />
-            <span>Agile coaching, process consultation and expert Ruby on Rails mentoring onsite at your location. And much more than that.</span></div>
-          <div class="textbox">
-            <div class="contenttitle">3-2-1 Launch</div>
-            <br />
-            <span>Unique development program for clients needing a 1.0 version of their project in one month or less.</span></div>
-          <div class="textbox">
-            <div class="contenttitle">Rescue Mission</div>
-            <br />
-            <span>Having problems? We offer short-term consulting for existing Rails-based projects in distress and disarray.</span></div>
-          <div class="textbox">
-            <div class="contenttitle">Systems Check</div>
-            <br />
-            <span>Comprehensive code and interface audit report for existing Rails-based projects.</span></div>
-          <div class="textbox">
-            <div class="contenttitle">Space Cadet</div>
-            <br />
-            <span>Come pair-program with us to learn BDD/TDD, expert Rails techniques and make strong progress on your project.</span></div>
-        </div>
-        <div class="sapo">
-          <div class="sapotitle"><span>Who We Are</span> </div>
-          <div id=profilescroll class=profilescroll>
-            <div class="profilecnt">
-              <div id="guy1" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
-                <div class="profiletext">
-                  <div class="profiletitle">Alex Dung</div>
-                  <br />
-                  <span>He got Master of Computing degree at National University of Singapore and become a Passionately Remarkable Ruby on Rails Web Developer. Owner of monkeycodemonkey.blogspot.com</span></div>
+<body>
+<script charset="utf-8" type="text/javascript">
+	$(function(){
+		$('#slide1').loopedSlider({
+			autoStart: 7000,
+			restart: 15000
+		});
+		$('#slide2').loopedSlider({
+			autoStart: 5000,
+			restart: 10000
+		});
+	});
+</script>
+<div align="center">
+  <div id="bodydiv">
+    <div id="bannerdiv"> <a id="logo" href="index.html">Logo</a>
+      <div id="navid">
+        <ul id="nav">
+          <li><a href="#" class="navactive">home</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">projects</a></li>
+          <li><a href="#">people</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bodymodule" id="featured">
+      <div id="slide1">
+        <div class="container" id="featuredcnt">
+          <div class="slides" id="featuredsli">
+            <div class="slidecontent" id="fslidecontent1"><img src="img/featuredwedding.png" width="540" height="300" style="position:relative;float:left" />
+              <div class="featuredtext">
+                <div class="ftexttitle">ILoveWeddings</div>
+                <div class="ftext"><b>Client: </b>ILoveWeddings</div>
+                <div class="ftext"><b>Delivery: </b>Ruby on Rails, FBJS, FBML, PostgreSQL, Paypal, Flickr</div>
+                <div class="ftext"><b>Date Completed: </b>Sep 14th, 2009</div>
               </div>
-              <div id="guy2" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
-                <div class="profiletext">
-                  <div class="profiletitle">Alex Dung</div>
-                  <br />
-                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+            </div>
+            <div class="slidecontent" id="fslidecontent2"><img src="img/featuredwedding.png" width="540" height="300" style="position:relative;float:left" />
+              <div class="featuredtext">
+                <div class="ftexttitle">ILoveWeddings</div>
+                <div class="ftext"><b>Client: </b>ILoveWeddings</div>
+                <div class="ftext"><b>Delivery: </b>Ruby on Rails, FBJS, FBML, PostgreSQL, Paypal, Flickr</div>
+                <div class="ftext"><b>Date Completed: </b>Sep 14th, 2009</div>
               </div>
-              <div id="guy3" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
-                <div class="profiletext">
-                  <div class="profiletitle">Alex Dung</div>
-                  <br />
-                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+            </div>
+            <div class="slidecontent" id="fslidecontent3"><img src="img/featuredwedding.png" width="540" height="300" style="position:relative;float:left" />
+              <div class="featuredtext">
+                <div class="ftexttitle">ILoveWeddings</div>
+                <div class="ftext"><b>Client: </b>ILoveWeddings</div>
+                <div class="ftext"><b>Delivery: </b>Ruby on Rails, FBJS, FBML, PostgreSQL, Paypal, Flickr</div>
+                <div class="ftext"><b>Date Completed: </b>Sep 14th, 2009</div>
               </div>
-              <div id="guy4" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
-                <div class="profiletext">
-                  <div class="profiletitle">Alex Dung</div>
-                  <br />
-                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
-              </div>
-              <div id="guy5" class="profile"><img src="img/guy.png" width="120" height="100" border="3"  />
-                <div class="profiletext">
-                  <div class="profiletitle">Alex Dung</div>
-                  <br />
-                  <span>Partner with us for outsourced custom application development from inception to design to release to ongoing maintenance.</span></div>
+            </div>
+            <div class="slidecontent" id="fslidecontent4"><img src="img/featuredwedding.png" width="540" height="300" style="position:relative;float:left" />
+              <div class="featuredtext">
+                <div class="ftexttitle">ILoveWeddings</div>
+                <div class="ftext"><b>Client: </b>ILoveWeddings</div>
+                <div class="ftext"><b>Delivery: </b>Ruby on Rails, FBJS, FBML, PostgreSQL, Paypal, Flickr</div>
+                <div class="ftext"><b>Date Completed: </b>Sep 14th, 2009</div>
               </div>
             </div>
           </div>
-          <div class="profilethumb">
-            <div class="seeall"> <a href="#">See all of the guys</a></div>
-          </div>
         </div>
-        <div class="sapo" style="margin-bottom:0px;">
-          <div class="sapotitle"><span>Contact Us</span> </div>
-          <div class="contact">
-            <div class="contacttitle">Jupiter Technology</div>
-            <span class="emailadd">info@jupitech.info</span><br />
-            <span>1-877-885-8846</span><br />
-            <span>320 1st Street North #712 Jacksonville Beach , FL 32250</span></div>
+        <div id="fboxtitle">
+          <div id="fboxtitletxt">Featured Project</div>
+          <div id="nextbackwrap"><a title="Left" href="#" class="previous slider-button-left">Left</a> <a title="Right" href="#" class="next slider-button-right">Right</a></div>
         </div>
       </div>
-      <div class="rightcontent" align="center">
-        <div class="featuretitle">Featured Projects</div>
-        <img src="img/featuredproject.png" width="300" height="231" />
-        <div class="featuredtext"> <span style="color:#00aeef; font-size:18px;">iLoveWeddings</span><br />
-          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></div>
-        <div class="projectlist" align="left">
-          <ul>
-            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
-            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
-            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
-            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
-            <li><a href="#"><img src="img/bullet.png" width="25" height="25" border="0" /></a></li>
-          </ul>
+    </div>
+    <div class="bodymodule" id="homepage">
+      <div class="box" id="jupitech">
+        <div class="boxtitle">Jupiter Technology</div>
+        <div class="boxtext">
+          <div style="margin-right:3px;">Hi Alex and Tyson, could u plz add some content here or email me the content of this box so i can fill it in, tyvm.<br style="margin-bottom:5px;" />
+            Jupitech is an expert web design and development group. We practice Agile and leverage technology such as Ruby on Rails to help your company deliver quality software quickly.</div>
         </div>
-        <span class="seeall2"><a href="#" style="color:#F0F0F0;">See all of our Projects</a></span> </div>
+      </div>
+      <div class="box" id="whoweare">
+        <div class="boxtitle">Who We Are</div>
+        <div class="boxtext">
+          <div id="slide2">
+            <div class="container" id="whowearecnt">
+              <div class="slides" id="whowearesli">
+                <div class="slidecontent" id="mem1"> <img class="who" src="img/guy1.png" width="120" height="100" />
+                  <div class="whotext">
+                    <div class="whotitle">Alex Dung</div>
+                    <div class="wtext">He got Master of Computing degree at National University of Singapore and become a Passionately Remarkable Ruby on Rails Web Developer. <br style="margin-bottom:5px;" />
+                      He is the owner of monkeycodemonkey.blogspot.com</div>
+                  </div>
+                </div>
+                <div class="slidecontent" id="mem2"> <img class="who" src="img/guy1.png" width="120" height="100" />
+                  <div class="whotext">
+                    <div class="whotitle">Alex Dung</div>
+                    <div class="wtext">He got Master of Computing degree at National University of Singapore and become a Passionately Remarkable Ruby on Rails Web Developer. <br style="margin-bottom:5px;" />
+                      He is the owner of monkeycodemonkey.blogspot.com</div>
+                  </div>
+                </div>
+                <div class="slidecontent" id="mem3"> <img class="who" src="img/guy1.png" width="120" height="100" />
+                  <div class="whotext">
+                    <div class="whotitle">Alex Dung</div>
+                    <div class="wtext">He got Master of Computing degree at National University of Singapore and become a Passionately Remarkable Ruby on Rails Web Developer. <br style="margin-bottom:5px;" />
+                      He is the owner of monkeycodemonkey.blogspot.com</div>
+                  </div>
+                </div>
+                <div class="slidecontent" id="mem4"> <img class="who" src="img/guy1.png" width="120" height="100" />
+                  <div class="whotext">
+                    <div class="whotitle">Alex Dung</div>
+                    <div class="wtext">He got Master of Computing degree at National University of Singapore and become a Passionately Remarkable Ruby on Rails Web Developer. <br style="margin-bottom:5px;" />
+                      He is the owner of monkeycodemonkey.blogspot.com</div>
+                  </div>
+                </div>
+                <div class="slidecontent" id="mem5"> <img class="who" src="img/guy1.png" width="120" height="100" />
+                  <div class="whotext">
+                    <div class="whotitle">Alex Dung</div>
+                    <div class="wtext">He got Master of Computing degree at National University of Singapore and become a Passionately Remarkable Ruby on Rails Web Developer. <br style="margin-bottom:5px;" />
+                      He is the owner of monkeycodemonkey.blogspot.com</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="nextbackwrap2"><a title="Left" href="#" class="previous slider-button-left" id="back2">Left</a> <a title="Right" href="#" class="next slider-button-right" id="next2">Right</a></div>
+            <a id="seeguys" href="#">See all of the guys</a> </div>
+        </div>
+      </div>
+      <div class="box" id="contactus">
+        <div class="boxtitle" style="border-bottom: solid 1px #dce1e4; text-indent:10px; padding-top:3px;">Get In Touch</div>
+        <div class="boxtext" style="background:none">
+          <div style="margin-right:3px; margin-left:10px; margin-bottom:5px;"><b style="color:#39F; text-transform:uppercase;">Tel: </b>+99 (0) 9876 54320<br />
+            <b style="color:#39F; text-transform:uppercase;">Fax: </b>+99 (0) 9876 54321<br />
+            <b style="color:#39F; text-transform:uppercase;">Email: </b>info@jupitech.com<br />
+            <b style="color:#39F; text-transform:uppercase;">Web: </b>www.jupitech.com<br />
+            99Z Some Street, Some District, Its City,
+            The Country</div>
+        </div>
+      </div>
+      <div class="box" id="services">
+        <div class="boxtitle">Web Development Services</div>
+        <div class="boxtext">
+          <div style="margin-right:3px;">Hi Alex and Tyson, could u plz add some content here or email me the content of this box so i can fill it in, tyvm.<br style="margin-bottom:5px;" />
+            Jupitech: A Boutique Ruby on Rails & Web Design Consultancy Building a successful web business is blah blah. <br style="margin-bottom:5px;" />
+            Jupitech is an expert web design and development group. We practice Agile and leverage technology such as Ruby on Rails to help your company deliver quality software quickly.</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<div class="sitefooter" align="center">
-  <div class="copyright" align="left"><span style="margin-top:25px; margin-left:100px;">copyright &copy; 2009 by</span><span><img src="img/copylogo.png" width="143" height="41" /></span><span style="margin-top:25px;">All rights reserved</span></div>
+<div id="footer" align="center">
+  <div id="footercontent"><a href="#" id="footerlogo"></a>
+    <div id="copy">© 2009 all rights reserved. All images and content belong to <a href="mailto:info@jupitech.com">Jupiter Technology</a></div>
+  </div>
 </div>
 </body>
 </html>
