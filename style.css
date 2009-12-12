@@ -296,11 +296,13 @@ a#footerlogo {
 	margin-left: -80px;
 }
 #copy {
+	border: 1px solid #dce1e4;
 	float: right;
 	color: #dce1e4;
 	margin-top: 25px;
 	margin-right: 20px;
 	font-size: 13px;
+	padding: 5px;
 }
 #copy a {
 	color: #dce1e4;
