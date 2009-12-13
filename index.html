@@ -6,6 +6,8 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="scripts/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="scripts/loopedslider.js"></script>
+<script type="text/javascript" src="scripts/jquery.cycle.all.min.js"></script>
+
 </head>
 <body>
 <script type="text/javascript" src="scripts/homepage.js"></script>
@@ -14,10 +16,10 @@
     <div id="bannerdiv"><div style="margin-left:-20px; width:882px; height:300px; position:absolute; z-index:-1; background:url(img/decor.png) no-repeat;"></div> <a id="logo" href="index.html">Logo</a>
       <div id="navid">
         <ul id="nav">
-          <li><a href="#" class="navactive">home</a></li>
-          <li><a href="#">services</a></li>
-          <li><a href="#">projects</a></li>
+          <li><a class="navactive">home</a></li>
           <li><a href="#">people</a></li>
+          <li><a href="#">projects</a></li>
+          <li><a href="#">services</a></li>
           <li><a href="#">contact</a></li>
         </ul>
       </div>
@@ -25,10 +27,9 @@
     <div class="bodymodule" id="featured">
       <div id="slide1">
         <div class="container" id="featuredcnt">
-          <div class="slides" id="featuredsli">
             <div class="slidecontent" id="fslidecontent1"><img src="img/featuredwedding.png" width="540" height="300" style="position:relative;float:left" />
               <div class="featuredtext">
-                <div class="ftexttitle">ILoveWeddings</div>
+                <div class="ftexttitle">ILoveWeddings Blah</div>
                 <div class="ftext"><b>Client: </b>ILoveWeddings</div>
                 <div class="ftext"><b>Delivery: </b>Ruby on Rails, FBJS, FBML, PostgreSQL, Paypal, Flickr</div>
                 <div class="ftext"><b>Date Completed: </b>Sep 14th, 2009</div>
@@ -36,7 +37,7 @@
             </div>
             <div class="slidecontent" id="fslidecontent2"><img src="img/featuredwedding.png" width="540" height="300" style="position:relative;float:left" />
               <div class="featuredtext">
-                <div class="ftexttitle">ILoveWeddings</div>
+                <div class="ftexttitle">Second Project</div>
                 <div class="ftext"><b>Client: </b>ILoveWeddings</div>
                 <div class="ftext"><b>Delivery: </b>Ruby on Rails, FBJS, FBML, PostgreSQL, Paypal, Flickr</div>
                 <div class="ftext"><b>Date Completed: </b>Sep 14th, 2009</div>
@@ -44,7 +45,7 @@
             </div>
             <div class="slidecontent" id="fslidecontent3"><img src="img/featuredwedding.png" width="540" height="300" style="position:relative;float:left" />
               <div class="featuredtext">
-                <div class="ftexttitle">ILoveWeddings</div>
+                <div class="ftexttitle">Third Project</div>
                 <div class="ftext"><b>Client: </b>ILoveWeddings</div>
                 <div class="ftext"><b>Delivery: </b>Ruby on Rails, FBJS, FBML, PostgreSQL, Paypal, Flickr</div>
                 <div class="ftext"><b>Date Completed: </b>Sep 14th, 2009</div>
@@ -52,13 +53,12 @@
             </div>
             <div class="slidecontent" id="fslidecontent4"><img src="img/featuredwedding.png" width="540" height="300" style="position:relative;float:left" />
               <div class="featuredtext">
-                <div class="ftexttitle">ILoveWeddings</div>
+                <div class="ftexttitle">4rd Project</div>
                 <div class="ftext"><b>Client: </b>ILoveWeddings</div>
                 <div class="ftext"><b>Delivery: </b>Ruby on Rails, FBJS, FBML, PostgreSQL, Paypal, Flickr</div>
                 <div class="ftext"><b>Date Completed: </b>Sep 14th, 2009</div>
               </div>
             </div>
-          </div>
         </div>
         <div id="fboxtitle">
           <div id="fboxtitletxt">Featured Project</div>
@@ -144,7 +144,7 @@
 </div>
 <div id="footer" align="center">
   <div id="footercontent"><a href="#" id="footerlogo"></a>
-    <div id="copy">© 2009 all rights reserved. All images and content belong to <a href="mailto:info@jupitech.com">Jupiter Technology</a></div>
+    <div id="copy"><div id="copyborder">© 2009 all rights reserved. All images and content belong to <a href="mailto:info@jupitech.com">Jupiter Technology</a></div></div>
   </div>
 </div>
 </body>
