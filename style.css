@@ -139,7 +139,7 @@ ul#nav li a:hover, ul#nav li .navactive {
 	margin-top: 4px;
 }
 a.slider-button-left {
-	background: transparent url(img/back.png) no-repeat scroll 0 0;
+	background: transparent url(img/nextbackbtn.png) no-repeat scroll 0 0;
 	border: medium none;
 	float: left;
 	height: 37px;
@@ -147,10 +147,10 @@ a.slider-button-left {
 	width: 37px;
 }
 a.slider-button-left:hover {
-	background: transparent url(img/back_over.png) no-repeat scroll 0 0;
+	background-position: 0 -37px;
 }
 a.slider-button-right {
-	background: transparent url(img/next.png) no-repeat scroll 0 0;
+	background: transparent url(img/nextbackbtn.png) no-repeat scroll -37px 0;
 	border: medium none;
 	float: left;
 	height: 37px;
@@ -158,7 +158,7 @@ a.slider-button-right {
 	width: 37px;
 }
 a.slider-button-right:hover {
-	background:transparent url(img/next_over.png) no-repeat scroll 0 0;
+	background-position: -37px -37px;
 }
 #homepage {
 	background: url(img/nextbackbg.png) repeat-x;
@@ -233,20 +233,20 @@ img.who {
 	margin-top: 7px;
 }
 a#back2 {
-	background: transparent url(img/back2.png) no-repeat scroll 0 0;
+	background: transparent url(img/nextbackbtn.png) no-repeat scroll 0 -74px;
 	height: 19px;
 	width: 19px;
 }
 a#back2:hover {
-	background: transparent url(img/back2_over.png) no-repeat scroll 0 0;
+	background-position: 0 -93px;
 }
 a#next2 {
-	background: transparent url(img/next2.png) no-repeat scroll 0 0;
+	background: transparent url(img/nextbackbtn.png) no-repeat scroll -19px -74px;
 	height: 19px;
 	width: 19px;
 }
 a#next2:hover {
-	background: transparent url(img/next2_over.png) no-repeat scroll 0 0;
+	background-position: -19px -93px;
 }
 a#seeguys {
 	float: right;
